@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --bluecolor: rgb(65,105,225);
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+}
+
+/* navbar section  */
+header{
+    background-color: var(--bluecolor);
+    min-height: 50px;
+    z-index: 1;
+}
+nav .nav-item a{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+nav .navbar-brand span
+{
+    color:white;
+}
+ /* Hero Section  */
+.hero-section h2{
+    color: var(--bluecolor);
+}
+.hero-section p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+}
+
+/* about section  */
+.about_section .container{
+    transition: ease-in-out 0.5s;
+}
+.about_section .container:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+}
+.about_section span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.about_section h6{
+    color: var(--bluecolor);
+}
+.resume 
+{
+    display: flex;
+    gap:20px;
+}
+ /* Service Section  */
+
+.service_section{
+    display: flex;
+    
+}
+.service_section .card-body h4{
+    color: var(--bluecolor);
+}
+.service_section .container .card
+{
+    gap:10px;
+}
+/* Skill Section  */
+.skill_section{
+    background-color: var(--bluecolor);
+    height: 350px;
+}
+.progress-bar{
+    background:gray;
+}
+/* Service Section  */
+.service_section .card img{
+    width:200px;
+    display: flex;
+    align-self: center;
+}
+
+.project_section .card {
+    border: none;
+    transition: ease-in-out 0.2s;
+    border-bottom: 7px solid transparent;
+
+}
+.project_section .card:hover {
+    /* border: 1px solid var(--bluecolor); */
+    transition: ease-in-out 0.2s;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    border-bottom: 7px solid #A076F9;
+
+}
+.project_section .card img{
+    width: 260px;
+    display: flex;
+    align-self: center;
+    background-size: cover;
+    background-position: center;
+   
+}
+.project_section .card-body .btn{
+    background-color: var(--bluecolor);
+    color: white;
+    padding: 5 15px;
+    transition: ease-in-out 0.5s;
+}
+.project_section .card-body .btn:hover{
+    background-color: #ccc;
+    color: #000;
+    transition: ease-in-out 0.5s;
+    
+}
+.contact_section{
+    background:url(image/image2.png);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+footer{
+    background-color: var(--bluecolor);
+    padding: 10px 0;
+    
+}
+@media(max-width:912px)
+{
+    
+    .skill_section{
+        background-color: var(--bluecolor);
+        height: 410px;
+    }
+}
